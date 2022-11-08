@@ -7,7 +7,7 @@ while alpha == True:
 	import mysql.connector
 	mydb=mysql.connector.connect(host="localhost",user="root",passwd="123456",database="c_s")
 	cursor=mydb.cursor(buffered=True)
-	print("""	[*] The sql server is connected succesfully.""")									
+	print("""	[*] The sql server is connected succesfully..""")									
 	print("""
 	1.Patients
 	2.Staffs
